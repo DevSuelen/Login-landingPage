@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+.cabecalho-title{
+    color: #C92071;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+   
+}
+.cabecalho-imagem {
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.cabecalho .cabecalho-imagem{
+    margin-left: 15%;
+}
+
+.conteudo-principal{ 
+    display: flex;
+    justify-content: flex-end;
+    background-color: #B5B6F2;
+    background-image: linear-gradient(#B5B6F2, #EFEFFF);
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    position: absolute;
+    width: 583px;
+    height: 399px;
+    left: 100px;
+    top: 200px;
+    justify-content: space-around;
+    background: #FFFFFF;
+    border-radius: 30px;
+
+}
+.h1-criar-conta{
+    width: 523px;
+    left: 30px;
+    height: 36px;
+    top: 30px;
+    font-family: 'inter';
+    font-style: normal;
+    font: weight 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+.entre-aqui{
+
+    width: 272px;
+    height:28px ;
+    font-family: 'inter';
+    font-style:normal ;
+    font-weight: 400;
+    font: size 16px;
+    line-height: 28px;
+    color: #474747;
+    letter-spacing:0,75px;
+}
+
+
+.email{
+    width: 110px;
+    height: 24px;
+    left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+button{
+    background: #C92071;
+    border-radius: 8px;
+    width: 523px;
+    height: 35px;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+span{
+    justify-content: space-around;
+    height: 28px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+
+}
+
+
+.tenis-direito{
+    width: 300px;
+    height: 483px;
+    left: 1000px;
+    top: 156px;
+    background: url(pexels-melvin-buezo-2529148.png);
+    transform: matrix(0.25, 0.25, 0.97, 0, 0);
+ }
+
+
+.tenis-esquerdo{
+    width: 280px;
+    height: 555px;
+    left: 1500px;
+    top: 417.1px;
+    background: url(pexels-melvin-buezo-2529148.png);
+    transform: matrix(-0.35, -0.35, 0.94, 0, 0);
+}
+
+
+footer{
+    background: #1F1F1F;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+
+.titulo-footer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 44px;
+}
+
+
+.paragrafo-footer{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    order: 1;
+}
+
+.figure-facebook{
+   
+    width: 10.92px;
+    height: 20.53px;
+    left: 100px;
+    top: 269px;
+   
+}
+.figure-instagram{
+   
+    width: 20.11px;
+    height: 20.11px;
+    left: 146px;
+    top: 269px;
+    
+}
+.figure-twitter{
+  
+    width: 22.12px;
+    height: 18.24px;
+    left: 202px;
+    top: 270px;
+    
+}
+
+.logo {
+   
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 33px;
+}
+
+
+.informacao .categoria .contato{
+    color: white;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+ul{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    top: 0px;
+    font-family: 'inter';
+    line-height: 38px;
+   
+}
+
+
+.contato
+{
+    color: white;
+}
+        
+
+.date{
+    color: white;
+    
+}
