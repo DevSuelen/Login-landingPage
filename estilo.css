@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+   
     
 }
 
@@ -195,6 +196,7 @@ h2{
     height: 20.53px;
     left: 100px;
     top: 269px;
+    
    
 }
 .figure-instagram{
@@ -203,16 +205,14 @@ h2{
     height: 20.11px;
     left: 146px;
     top: 269px;
-    margin-left: 30px;
+   
     
 }
 .figure-twitter{
   
     width: 22.12px;
     height: 18.24px;
-    left: 202px;
-    top: 270px;
-    margin-left: 30px;
+    
 }
 
 .logo {
@@ -251,7 +251,7 @@ footer p{
     width: 100%;
     text-align: center;
     line-height: 80px;
-    border-top: 1px solid #FFFFFF05;
+    border-top: 1px solid #FFFFFF12;
 }
  
 
@@ -279,6 +279,7 @@ ul{
 .contato
 {
     color: white;
+    
 }
         
 
