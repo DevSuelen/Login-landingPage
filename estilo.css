@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
    
     
 }
@@ -71,6 +72,12 @@ form{
     line-height: 28px;
     color: #474747;
     letter-spacing:0,75px;
+    
+}
+.entre-aqui
+a{
+    color:  #474747;
+    text-decoration-line: underline;
 }
 
 .input-email label{
@@ -273,6 +280,7 @@ ul{
     font-family: 'inter';
     line-height: 38px;
    list-style: none;
+   
 }
 
 
@@ -286,4 +294,11 @@ ul{
 .date{
     color: white;
     
+}
+.informacao, 
+.topicos,
+a
+{
+    color: white;
+   
 }
